@@ -5,7 +5,7 @@ import './Home.css';
 
 function Home() {
   const [news, setNews] = useState([]);
-  const [searchQuery, setSearchQuery] = useState('pune');
+  const [searchQuery, setSearchQuery] = useState('Ahmednagar');
 
   const loadNews = async () => {
     try {
